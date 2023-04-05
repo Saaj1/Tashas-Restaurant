@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  background-color: whitesmoke;
+  margin:0px;
+  padding: 0px;
+  font-family: tahoma;
+}
+/* navbar styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: fixed;
+  padding: 0px 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px grey;
+  color: #f72585;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+nav ul li > a {
+  text-decoration: none;
+  color: #f72585;
+  transition: ease-in-out .5s;
+}
+
+nav ul li > a:hover {
+  color: lightseagreen;
+}
+
+/* eye catching_area */
+.eyecatch-area {
+  height: 70vh;
+  background-image: url("https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.eyecatch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+.main-title {
+  color: #ffccd5;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+}
+
+/* about styling */
+#about {
+  padding: 50px 0;
+  background: #f5f5f7;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about h2 {
+  font-size: 2.3rem;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+#about .big {
+  font-size: 30px;
+  color: #666;
+  font-weight: 600;
+}
+
+.about-img {
+  flex: 1 1 400px;
+  padding: 30px;
+}
+
+.about-text {
+  flex: 1 1 400px;
+  padding: 30px;
+  margin: auto;
+}
+
+
+.about-img img {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: right;
+}
+
+.card {
+  display: flex;
+}
+
+/* food menu styling */
+.food-menu-heading {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.food-menu-container img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.food-description {
+  margin: auto 1.5rem;
+}
+
+.font-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.food-description p {
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.food-description .food-price {
+  color: #f72585;
+  font-weight: 700;
+}
+
+/* contact styling */
+#contact {
+  padding: 20px;
+  background: whitesmoke;
+}
+
+.contact-container {
+  display: flex;
+  background: #fff;
+  margin: 10px;
+}
+
+.contact-img {
+  width: 50%;
+}
+
+.contact-img img {
+  display: block;
+  height: 500px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.form-container {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-container textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  color: #444;
+  outline: none;
+  padding: 1rem 0;
+  resize: none;
+}
+
+.form-container h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1rem;
+  margin-top: -1.2rem;
+}
+
+.form-container a {
+  font-size: 1.3rem;
+}
+
+.btn {
+  background-color: #ffccd5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+/* location styling */
+#location {
+  display: flex;
+  justify-content: space-evenly;
+  color: #444;
+  font-family:cursive;
+  box-shadow:1px 1px 1px 1px #ffccd5;
+  padding: 20px;
+  margin: 20px;
+  background-color: #e9ecef;
+}
+
+#location img {
+  width: 500px;
+  height: 300px;
+}
